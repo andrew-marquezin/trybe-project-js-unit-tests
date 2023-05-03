@@ -53,6 +53,9 @@ const arrayGenerator = (type, object) => {
 
     case 'entries':
       return Object.entries(object);
+
+    default:
+      return undefined;
   }
 };
 
